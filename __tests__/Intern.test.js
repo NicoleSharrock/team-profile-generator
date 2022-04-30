@@ -1,21 +1,9 @@
-class Intern extends Employee {
-    constructor(name, id, email, school) {
-        super(name, id, email)
-    }
-    getName() {
+const Intern = require('../lib/Intern');
 
-    }
-    getId() {
+test('create an intern school and return of intern', () => {
+    const intern = new Intern('Hayes', 2, 'testing@test.com', 'school');
 
-    }
-    getEmail() {
-
-    }
-    getSchool() {
-
-    }
-    getRole() {
-
-    }
-
-}
+    expect(intern.school).toBe('school');
+    expect(intern.getSchool()).toBe('school');
+    expect(intern.getRole()).toBe('Intern');
+})
