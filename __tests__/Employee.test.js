@@ -1,21 +1,19 @@
-class Employee {
-    constructor(name, id, email) {
-        this.name = name;
-        this.id = id;
-        this.email = email;
-    }
+const Employee = require('../lib/Employee')
 
-    getName() {
+//creates employee object
+test('create employee object', () => {
+    const e = new Employee();
+    expect(typeof (e)).toBe('object');
+});
 
-    }
-    getId() {
+test('create a employee name, id, email', () => {
+    const employee = new Employee('Nicole', 4, 'testing@test.com');
 
-    }
-    getEmail() {
+    expect(employee.name).toBe('Nicole');
+    expect(employee.id).toBe(4);
+    expect(employee.email).toBe('testing@test.com');
+    expect(employee.getName()).toBe('Nicole')
 
-    }
-    getRole() {
+    expect(employee.getRole()).toBe('Employee');
+});
 
-    }
-
-}
