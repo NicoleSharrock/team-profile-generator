@@ -1,19 +1,9 @@
-class Manager extends Employee {
-    constructor(name, id, email, officeNumber) {
-        super(name, id, email)
-    }
-    getName() {
+const Manager = require('../lib/Manager');
 
-    }
-    getId() {
+test('create an office number and return of Manager', () => {
+    const manager = new Manager('Sharrock', 1, 'testing@test.com', 100);
 
-    }
-    getEmail() {
-
-    }
-    getRole() {
-
-    }
-
-
-}
+    expect(manager.officeNumber).toBe(100);
+    expect(manager.getOfficeNumber()).toBe(100);
+    expect(manager.getRole()).toBe('Manager');
+})
