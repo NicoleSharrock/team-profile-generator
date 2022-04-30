@@ -1,11 +1,9 @@
-
-const { exportAllDeclaration } = require('@babel/types');
 const Engineer = require('../lib/Engineer')
 
-test('creates engineer github username and github', () => {
-    const engineer = new Engineer('Tara', 3, 'testing@test.com', 'tarahayes');
+test('create an engineer gitHub and return of Manager', () => {
+    const engineer = new Engineer('Tara', 3, 'testing@test.com', 'user');
 
-    expect(engineer.gitHub).toBe('tarahayes');
-    expect(engineer.getGithub()).toBe('tarahayes');
-    expect(engineer.getRole()), toBe('Engineer');
+    expect(engineer.github).toBe('user');
+    expect(engineer.getRole()).toBe('Engineer');
+    expect(engineer.getGithub()).toBe('user');
 })
