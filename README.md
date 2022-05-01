@@ -24,6 +24,10 @@ AS a manager I want to generate a webpage that displays my team's basic info so 
 
 
 
+https://user-images.githubusercontent.com/97641313/166169116-b91fc7da-7d07-420f-b230-964975597da0.mp4
+
+
+
 ## Screenshot
 ![screenshot](assets/image/teamprofilepicture.png) 
 
