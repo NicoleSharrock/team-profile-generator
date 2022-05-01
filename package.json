@@ -5,5 +5,23 @@
   },
   "scripts": {
     "test": "jest"
-  }
+  },
+  "name": "team-profile-generator",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoleSharrock/team-profile-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoleSharrock/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/NicoleSharrock/team-profile-generator#readme"
 }
