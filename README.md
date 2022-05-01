@@ -1,7 +1,7 @@
 # Team-Profile-Generator
 
 ## Purpose 
-To quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.
+Displays a nicely formatted team roster based on user input. 
 
 ## Table Of Contents
 * [General info](#story)
