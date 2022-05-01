@@ -5,5 +5,4 @@ test('create an engineer gitHub and return of engineer', () => {
 
     expect(engineer.github).toBe('user');
     expect(engineer.getRole()).toBe('Engineer');
-    expect(engineer.getGithub()).toBe('user');
 })

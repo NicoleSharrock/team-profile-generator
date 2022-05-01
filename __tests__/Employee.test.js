@@ -12,7 +12,6 @@ test('create a employee name, id, email', () => {
     expect(employee.name).toBe('Nicole');
     expect(employee.id).toBe(4);
     expect(employee.email).toBe('testing@test.com');
-    expect(employee.getName()).toBe('Nicole')
 
     expect(employee.getRole()).toBe('Employee');
 });
